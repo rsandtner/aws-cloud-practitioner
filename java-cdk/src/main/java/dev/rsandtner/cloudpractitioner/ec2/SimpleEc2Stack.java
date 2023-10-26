@@ -26,8 +26,6 @@ import software.amazon.awscdk.services.ec2.Vpc;
 import software.amazon.awscdk.services.ec2.VpcLookupOptions;
 import software.constructs.Construct;
 
-import java.util.stream.IntStream;
-
 public class SimpleEc2Stack extends Stack {
 
     public SimpleEc2Stack(@Nullable Construct scope) {
